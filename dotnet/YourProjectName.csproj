@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
+
+<!-- <Project Sdk="Microsoft.NET.Sdk.Web">  -->
+<!-- This element defines the project and specifies that it uses the Microsoft.NET.Sdk.Web SDK, which is used for building web applications, including ASP.NET Core applications. The SDK includes the necessary tools and libraries for web development. -->
+
+<!-- <PropertyGroup>
+The <PropertyGroup> element is used to define a group of properties that control various settings and configurations for the project. This specific PropertyGroup contains three properties:
+
+<TargetFramework>net8.0</TargetFramework>: This property specifies the target framework for the project. net8.0 indicates that the project is targeting .NET 8.0. This setting determines which version of the .NET runtime and libraries will be used.
+<Nullable>enable</Nullable>: This property enables nullable reference types for the project. When this is set to enable, the compiler will enforce nullable reference type annotations and warnings, helping to avoid null reference exceptions by making the developer explicitly declare whether a reference type can be null. The value for this element is enable and disable.
+<ImplicitUsings>enable</ImplicitUsings>: This property enables implicit using directives. When set to enable, the compiler automatically includes commonly used namespaces in the global scope, reducing the need to add using directives manually at the top of each file. The value for this element is enable and disable. -->
